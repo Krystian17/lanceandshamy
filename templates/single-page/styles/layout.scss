@@ -1,0 +1,29 @@
+@import "../styles/variables.scss";
+
+main.mainlayout {
+  position: relative;
+  min-height: 100dvh;
+  width: 100dvw;
+  align-items: flex-start;
+  z-index: $ZIndex-Body;
+  overflow: hidden;
+  padding-left: 18.75rem;
+}
+
+section.mainbody {
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: $color-body-bg;
+  overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+  main.mainlayout {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  section.mainbody {
+    width: 100%;
+    flex: unset;
+  }
+}

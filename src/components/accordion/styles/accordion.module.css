@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  /* align-self: stretch; */
+  gap: 0.625rem;
+  cursor: pointer;
+  max-width: 40rem;
+}
+
+.title svg {
+  flex: 0 0 auto;
+  transition: transform 0.2s;
+}
+.title.active svg {
+  transform: rotate(180deg);
+}
+
+.card .title {
+  display: flex;
+  align-self: stretch;
+  /* padding: 0.625rem 0rem; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+}
+
+
+
+.card .details {
+  overflow: hidden;
+  transition: height 0.2s;
+}
+
+
+
+@media (max-width: 991px) {
+  section.main {
+    padding-left: 0px;
+  }
+}

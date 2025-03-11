@@ -1,0 +1,152 @@
+@import "../styles/variables.scss";
+section#rsvp {
+  .modal-status {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(0%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    padding: 0.625rem;
+    background-color: $color-primary;
+    max-width: 21.875rem;
+    width: 100%;
+
+    h3 {
+      color: white;
+      font-family: $font-body;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .modal-status {
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  .rsvp-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    max-width: 37.9375rem;
+
+    .rsvp-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3125rem;
+      align-self: stretch;
+
+      h1 {
+        color: $color-font-header;
+        text-align: center;
+        font-size: 3.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-self: stretch;
+      }
+
+      h3 {
+        color: $color-font-body;
+        font-family: $font-body;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-self: stretch;
+      }
+    }
+
+    .basic-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+      align-self: stretch;
+
+      .warn {
+        color: $color-warn;
+      }
+
+      .radioForm {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.875rem;
+
+        .radioField {
+          display: flex;
+          align-items: center;
+          gap: 0.3125rem;
+
+          input[type="radio"] {
+            height: 1.25rem;
+            width: 1.25rem;
+          }
+        }
+      }
+    }
+
+    .guest-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.625rem;
+      align-self: stretch;
+
+      label {
+        align-self: stretch;
+      }
+
+      .guest-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+
+        .guest {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.3125rem;
+          align-self: stretch;
+
+          .guest-input {
+            display: flex;
+            align-items: center;
+            gap: 0.625rem;
+            align-self: stretch;
+
+            input {
+              width: 100%;
+            }
+
+            button {
+              height: unset;
+              padding: 0;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 0.3125rem;
+        padding: 0;
+
+        background-color: transparent;
+      }
+    }
+  }
+}

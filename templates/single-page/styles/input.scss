@@ -1,0 +1,28 @@
+@import "../styles/variables.scss";
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  align-self: stretch;
+
+  
+}
+
+label {
+  align-self: stretch;
+}
+
+input {
+  font-family: $font-body;
+  font-size: 1rem;
+  display: flex;
+  padding: 0.9375rem 0.625rem;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  background-color: #F6F6F6;
+  outline: none;
+  border: 0;
+}

@@ -1,0 +1,32 @@
+.invi-video {
+  margin: auto;
+  width: auto;
+  height: calc(100vh - 150px);
+}
+
+.img-invite {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem;
+
+  .content-img {
+    max-width: 25rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.img-invite.left{
+  justify-content: flex-start;
+}
+
+.img-invite.right{
+  justify-content: flex-end;
+}
+
+@media (max-width:991px) {
+  .img-invite.left, .img-invite.right{
+    justify-content: center;
+  }
+
+}
