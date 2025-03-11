@@ -1,0 +1,39 @@
+//============================
+// ClientName
+//============================
+$name-client: lanceandshamy; //change client name
+
+//============================
+// Color
+//============================
+$color-primary: #152C22;
+$color-primary-hover: #274b3c;
+$color-warn: rgb(216, 14, 0);
+$color-input-bg: #ffffff;//box color
+$color-font-header: #fff;
+$color-font-body: #fff;
+$color-body-bg: #fff;
+$color-nav-bg: #fff;
+$color-nav-shadow: rgba(0, 0, 0, 0.2);
+
+//============================
+// Font
+//============================
+$font-header: var(--font-playfair), sans-serif;
+$font-body: var(--font-opensans), sans-serif;
+
+//============================
+// Shadow
+//============================
+$shadow-nav-side: $color-nav-shadow 0px 4px 4px 0px;
+$shadow-nav-top: $color-nav-shadow 4px 0px 4px 0px;
+$shadow-hero: 0 2px 10px rgba(0, 0, 0, 0.5);
+
+//============================
+// ZIndex
+//============================
+$ZIndex-Overlay: 1200;
+$ZIndex-Nav: 1000;
+$ZIndex-Menu: 999;
+$ZIndex-HeroText: 5;
+$ZIndex-Body: 0;

@@ -1,0 +1,20 @@
+@import "../styles/variables.scss";
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: background-color .5s;
+  display: inline-flex;
+  height: 3.5rem;
+  padding: 0rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 31.25rem;
+  background-color: $color-primary;
+  color: black !important;
+}
+
+button:hover{
+  background-color: $color-primary-hover;
+}

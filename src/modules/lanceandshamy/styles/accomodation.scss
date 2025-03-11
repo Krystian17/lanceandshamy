@@ -1,0 +1,12 @@
+#accomodation {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  .accomodation_class {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: center;
+
+  }
+}
