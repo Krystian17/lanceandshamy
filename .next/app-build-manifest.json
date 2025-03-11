@@ -1,21 +1,29 @@
 {
   "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-2e7156d4bd1e6df4.js",
+      "static/chunks/fd9d1056-a7129889b45a2c4a.js",
+      "static/chunks/117-4474533e99b06f4e.js",
+      "static/chunks/main-app-84088e7c5194a903.js",
+      "static/chunks/app/_not-found/page-d9391f16ff33f994.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-2e7156d4bd1e6df4.js",
+      "static/chunks/fd9d1056-a7129889b45a2c4a.js",
+      "static/chunks/117-4474533e99b06f4e.js",
+      "static/chunks/main-app-84088e7c5194a903.js",
+      "static/css/9eab0a839b7ba0a1.css",
+      "static/css/80abecba22f939ec.css",
+      "static/chunks/app/layout-a1a517ce38aef201.js"
     ],
     "/(lanceandshamy)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(lanceandshamy)/page.css",
-      "static/chunks/app/(lanceandshamy)/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/webpack-2e7156d4bd1e6df4.js",
+      "static/chunks/fd9d1056-a7129889b45a2c4a.js",
+      "static/chunks/117-4474533e99b06f4e.js",
+      "static/chunks/main-app-84088e7c5194a903.js",
+      "static/css/5278a15d12fa63ef.css",
+      "static/chunks/771-331bd39e65c75639.js",
+      "static/chunks/app/(lanceandshamy)/page-7a56d6430e3b1527.js"
     ]
   }
 }
