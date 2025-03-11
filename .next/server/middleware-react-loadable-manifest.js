@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"modules/lanceandshamy/components/navigation/navigation.tsx -> ./navigation-list\":{\"id\":\"modules/lanceandshamy/components/navigation/navigation.tsx -> ./navigation-list\",\"files\":[\"static/chunks/_app-pages-browser_src_modules_lanceandshamy_components_navigation_navigation-list_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST='{"modules/lanceandshamy/components/navigation/navigation.tsx -> ./navigation-list":{"id":122,"files":["static/chunks/648.ee260f6fe0dc54c7.js","static/chunks/122.035984db343675f9.js"]}}';
