@@ -25,14 +25,14 @@ const RSVPMain = ({ BaseSettings, header, body }: propType) => {
   const ClientName = BaseSettings.client;
 
   const navlist: NavList = [
-    { name: "Home", url: `/${ClientName}#home`, id: "home" },
+    { name: "Home", url: `#home`, id: "home" },
     {
       name: "Invitation",
-      url: `/${ClientName}#invitation`,
+      url: `#invitation`,
       id: "invitation",
     },
 
-    { name: "RSVP", url: `/${ClientName}#rsvp`, id: "rsvp" },
+    { name: "RSVP", url: `#rsvp`, id: "rsvp" },
   ];
   
   return (
