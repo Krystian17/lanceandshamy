@@ -1,3 +1,5 @@
 {
-  "/(lanceandshamy)/page": "app/(lanceandshamy)/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(lanceandshamy)/page": "app/(lanceandshamy)/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
