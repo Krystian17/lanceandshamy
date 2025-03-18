@@ -26,7 +26,7 @@ export async function POST(request: Request) {
 
   const emailerName = {
     name: 'Lance and Shamy Wedding <lanceandshamywedding@gmail.com', //google account 
-    address: 'startswithletter@gmail.com', //clients account
+    address: 'shamyfernandezz@gmail.com', //clients account
     testaddress: 'startswithletter@gmail.com', //test email
   };
 
