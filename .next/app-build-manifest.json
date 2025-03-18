@@ -1,16 +1,16 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/(lanceandshamy)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(lanceandshamy)/page.css",
       "static/chunks/app/(lanceandshamy)/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
